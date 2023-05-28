@@ -28,10 +28,16 @@
   dominant-baseline:middle;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'flog';
   src: url('/static/base/fonts/FFF_Tusj.ttf')  format("truetype"),
        local('flog');
+} */
+
+@font-face {
+  font-family: 'circular';
+  src: url('/static/base/fonts/circular.ttf')  format("truetype"),
+       local('circular');
 }
 
 h1 {
@@ -47,7 +53,7 @@ h4 {
   font-size:16px;
 }
 body{
-    background: linear-gradient(to bottom, rgb(176,176,176), rgb(255,255,255));
+    background-color: white;
 }
 #edt-main{
   text-anchor:middle;
@@ -92,7 +98,7 @@ footer {
 }
 .def, .higb {
     font-size:76px;
-    font-family: 'flog';
+    font-family: 'circular';
 }
 .def, .slo {
     color: black;
@@ -177,7 +183,7 @@ body {
 
 #full_logo {
 	padding-top: 0px;
-	font-family: 'flog';
+	font-family: 'circular';
 	display: flex; 
 	flex-direction: row;
 	color:black
