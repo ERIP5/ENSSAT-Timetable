@@ -1,4 +1,4 @@
-# /!\ DISCLAIMER /!\
+# ENSSAT Timetable
 
 ![Logo](./FlOpEDT/base/static/base/img/flop2.png)
 
